@@ -1,20 +1,20 @@
-import {createTheme, ThemeProvider} from "@mui/material";
-import React from 'react';
+import React, {useState} from 'react';
 import './App.css';
 
-import "./Pages"
 import {BrowserRouter} from "react-router-dom";
+import {ColorModeThemeProvider, UiMode} from "@linka-cloud/theme"
 import {Router} from "./Router";
 
-const theme = createTheme({})
+import "./Pages"
 
 const App = () => {
+  const [mode, setMode] = useState<UiMode>("light")
   return (
-    <ThemeProvider theme={theme}>
+    <ColorModeThemeProvider mode={mode} setMode={setMode}>
       <BrowserRouter>
         <Router/>
       </BrowserRouter>
-    </ThemeProvider>
+    </ColorModeThemeProvider>
   );
 }
 

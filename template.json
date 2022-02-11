@@ -20,6 +20,7 @@
       "@emotion/react": "^11.7.1",
       "@emotion/styled": "^11.6.0",
       "@improbable-eng/grpc-web": "^0.15.0",
+      "@linka-cloud/theme": "^0.0.2",
       "@material-table/core": "^0.2.21",
       "@mui/icons-material": "^5.4.1",
       "@mui/lab": "^5.0.0-alpha.68",
