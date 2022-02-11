@@ -1,0 +1,60 @@
+{
+  "package": {
+    "devDependencies": {
+      "@testing-library/jest-dom": "^5.16.2",
+      "@testing-library/react": "^11.2.7",
+      "@testing-library/user-event": "^12.8.3",
+      "@types/jest": "^26.0.24",
+      "@types/long": "^4.0.1",
+      "@types/node": "^12.20.45",
+      "@types/react": "^16.14.23",
+      "@types/react-dom": "^16.9.14",
+      "@types/react-router-dom": "^5.3.3",
+      "babel-plugin-direct-import": "^1.0.0",
+      "customize-cra": "^1.0.0",
+      "react-app-rewired": "^2.1.11",
+      "react-scripts": "5.0.0",
+      "typescript": "^4.5.5"
+    },
+    "dependencies": {
+      "@emotion/react": "^11.7.1",
+      "@emotion/styled": "^11.6.0",
+      "@improbable-eng/grpc-web": "^0.15.0",
+      "@material-table/core": "^0.2.21",
+      "@mui/icons-material": "^5.4.1",
+      "@mui/lab": "^5.0.0-alpha.68",
+      "@mui/material": "^5.4.1",
+      "formik": "^2.2.9",
+      "formik-mui": "^4.0.0-alpha.3",
+      "long": "^5.2.0",
+      "protobufjs": "^6.11.2",
+      "react": "^17.0.2",
+      "react-dom": "^17.0.2",
+      "react-router-dom": "^6.2.1",
+      "rxjs": "^7.5.4",
+      "web-vitals": "^0.2.4",
+      "workbox-background-sync": "^5.1.4",
+      "workbox-broadcast-update": "^5.1.4",
+      "workbox-cacheable-response": "^5.1.4",
+      "workbox-core": "^5.1.4",
+      "workbox-expiration": "^5.1.4",
+      "workbox-google-analytics": "^5.1.4",
+      "workbox-navigation-preload": "^5.1.4",
+      "workbox-precaching": "^5.1.4",
+      "workbox-range-requests": "^5.1.4",
+      "workbox-routing": "^5.1.4",
+      "workbox-strategies": "^5.1.4",
+      "workbox-streams": "^5.1.4",
+      "yup": "^0.32.11"
+    },
+    "eslintConfig": {
+      "extends": ["react-app", "react-app/jest"]
+    },
+    "scripts": {
+      "start": "react-app-rewired start",
+      "build": "react-app-rewired build",
+      "test": "react-app-rewired test",
+      "eject": "react-scripts eject"
+    }
+  }
+}

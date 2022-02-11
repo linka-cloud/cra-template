@@ -1,0 +1,27 @@
+{
+  "name": "@linka-cloud/cra-template",
+  "version": "0.0.1",
+  "keywords": [
+    "react",
+    "create-react-app",
+    "template",
+    "pwa",
+    "workbox",
+    "service-worker",
+    "typescript"
+  ],
+  "description": "A progressive web app template for Create React App and TypeScript, using Workbox with mui, react-router-dom, grpc...",
+  "main": "template.json",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linka-cloud/cra-template"
+  },
+  "license": "MIT",
+  "engines": {
+    "node": ">=14"
+  },
+  "files": [
+    "template",
+    "template.json"
+  ]
+}
